@@ -1,0 +1,15 @@
+{
+    "name": "rat",
+    "description": "No-copyright monkey NFT",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNZH1DHWUHC9Y5prDkzs6a8ezedhpEfpSQqxeRoQSkxvZ",
+    "attributes": [
+        {
+            "color": "brown",
+            "value": "70% have this color"
+        },
+        {
+            "lips": "red",
+            "value": "lips are red"
+        }
+    ]
+}
