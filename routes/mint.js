@@ -11,7 +11,7 @@ route.post('/:api', async (req, res) => {
         res.status(200).send("invalid api")
     }
     else{
-        const hash = await mintFunc()
+        const hash = await mintFunc(req.body.uri)
         res.status(200).send(hash)
     }
 })

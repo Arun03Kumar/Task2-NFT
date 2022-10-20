@@ -1,6 +1,7 @@
 const express = require("express")
 const upload = require('./routes/upload')
 const mint = require("./routes/mint")
+require("./db_connection")
 
 const app = express()
 app.use(express.json())
